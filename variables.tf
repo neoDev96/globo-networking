@@ -14,7 +14,7 @@ variable "prefix" {
 
 }
 
-variable "enviroment" {
+variable "environment" {
   type        = string
   description = "(Optional) Enviroment of all resources"
 
