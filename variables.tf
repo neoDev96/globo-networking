@@ -11,7 +11,7 @@ variable "region" {
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
- 
+
 }
 
 variable "enviroment" {
@@ -25,7 +25,7 @@ variable "enviroment" {
 variable "cidr_block" {
   type        = string
   description = "(Optional) The CIDR block for the VPC. Default:10.42.0.0/16"
- 
+
 }
 
 variable "public_subnets" {
