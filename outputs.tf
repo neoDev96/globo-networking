@@ -7,7 +7,7 @@ output "vpc_id" {
   description = "VPC ID"
 }
 
-output "public_subnet" {
+output "public_subnets" {
   value       = module.main.public_subnets
   description = "List of public subnets"
 
